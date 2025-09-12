@@ -47,3 +47,4 @@ Proyecto desarrollado por estudiantes de UPC como parte del trabajo final del cu
 
 *Proyecto académico - Universidad Peruana de Ciencias Aplicadas (UPC)*
 # GoUni_LandingPage
+# GoUni_LandingPage
