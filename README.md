@@ -10,14 +10,14 @@ Landing page para GoUni, una plataforma de transporte universitario. Este proyec
 
 ## Demo
 
-Link de la landing page: https://landing-page-with-angular-sigma.vercel.app/
+Link de la landing page: [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)
 
 ## Tecnologías
 
 - Angular 18
 - TypeScript
 - HTML5/CSS3
-- Bootstrap (responsive design)
+- Angular Material
 
 ## Características
 
@@ -39,12 +39,12 @@ ng serve
 http://localhost:4200
 ```
 
-## Equipo de Desarrollo
+## Integrantes del Equipo
 
-Proyecto desarrollado por estudiantes de UPC como parte del trabajo final del curso Team Software Process.
-
+- **Anampa Lavado, Luis Angel** - (Código: u202218664)
+- **Ayquipa Ubaldo, Abraham Israel** - (Código: u202218475)
+- **Onofre Ruiz, Carlos Jesus** - (Código: u202115590)
+- **Landeo Simeón, Favio Sebastián** - (Código: u202119588)
 ---
 
 *Proyecto académico - Universidad Peruana de Ciencias Aplicadas (UPC)*
-# GoUni_LandingPage
-# GoUni_LandingPage
