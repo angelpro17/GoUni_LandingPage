@@ -1,0 +1,18 @@
+<section class="benefits" id="beneficios">
+  <div class="benefits-content">
+    <div class="benefits-text">
+      <h2>{{ 'benefits.title' | translate }}<br> <span>{{ 'benefits.subtitle' | translate }}</span></h2>
+    </div>
+    <div class="contenedor-grid">
+      <mat-card class="cuadro" *ngFor="let beneficio of beneficios; let i = index">
+        <mat-card-header>
+          <img mat-card-avatar [src]="beneficio.icono" [alt]="'benefits.' + beneficio.clave + '.title' | translate">
+          <mat-card-title><h3>{{ 'benefits.' + beneficio.clave + '.title' | translate }}</h3></mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ 'benefits.' + beneficio.clave + '.description' | translate }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

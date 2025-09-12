@@ -1,0 +1,23 @@
+<section class="contacto" id="contacto">
+  <h2>{{ 'contact.title' | translate }}<br><span>{{ 'contact.subtitle' | translate }}</span></h2>
+  <div id="container">
+    <h1>{{ 'contact.heading' | translate }}</h1>
+    <form id="contact_form">
+      <div class="name">
+        <input type="text" placeholder="{{ 'contact.placeholder.name' | translate }}" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <input type="email" placeholder="{{ 'contact.placeholder.email' | translate }}" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <input type="text" placeholder="{{ 'contact.placeholder.telephone' | translate }}" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="message">
+        <textarea name="message" placeholder="{{ 'contact.placeholder.message' | translate }}" id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="{{ 'contact.submit' | translate }}" id="form_button" />
+      </div>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,79 @@
+.how-it-works {
+  background-color: #FFFFFF;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  height: 100vh;
+  width: 100%; /* Asegura que la sección ocupe todo el ancho de la pantalla */
+  box-sizing: border-box; /* Incluye padding y borde en la medida del contenedor */
+}
+
+h2 {
+  font-size: 36px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+}
+h2 span {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.step {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.mat-mdc-card-title h3 {
+  font-size: 25px;
+  margin-top: 1rem;
+  font-weight: bold; /* Esto hará que el título esté en negrita */
+}
+
+.mat-card-title {
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.mat-card-content p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .how-it-works{
+    height: auto;
+
+  }
+
+  .steps-container {
+    flex-direction: column; /* Coloca los pasos uno debajo del otro */
+    align-items: center; /* Centra los pasos en pantallas pequeñas */
+    justify-content: center;
+  }
+
+  .step {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 28px; /* Ajusta el tamaño del título para pantallas pequeñas */
+  }
+
+  h2 span {
+    font-size: 40px; /* Ajusta el tamaño del texto en negrita */
+  }
+
+  .mat-card-content p {
+    font-size: 18px; /* Ajusta el tamaño del texto del contenido en pantallas pequeñas */
+  }
+}

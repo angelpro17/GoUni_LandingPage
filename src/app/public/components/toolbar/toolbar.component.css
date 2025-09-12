@@ -1,0 +1,207 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 9%;
+  z-index: 1000;
+  background-color: #000000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  min-height: 60px;
+}
+.header .logoUF img {
+  height: 32px;
+}
+.header .navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header .navbar a {
+  font-size: 1rem;
+  margin: 0 0.8rem;
+  padding: 0.8rem 1.2rem;
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.header .navbar a:hover {
+  color: #ff6b35;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.language-selector {
+  position: relative;
+  margin-right: 0;
+}
+.selected-language {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.login-btn, .register-btn {
+  padding: 10px 20px;
+  margin-left: 0;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+.login-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.login-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.register-btn {
+  background-color: #ff6b35;
+  color: white;
+}
+.register-btn:hover {
+  background-color: #e55a2b;
+  transform: translateY(-1px);
+}
+#menu-btn {
+  display: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 998;
+}
+
+.blur-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.mobile-menu {
+  position: fixed;
+  top: 45px;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  border-top: 0rem solid rgba(255, 255, 255, 0.1);
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-menu.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 9%;
+}
+
+.mobile-navbar a {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.mobile-navbar a:hover {
+  color: #ff6b35;
+}
+
+.mobile-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 9%;
+  gap: 1rem;
+}
+
+.mobile-header-right .language-selector {
+  margin-right: 0;
+}
+
+.mobile-header-right .login-btn,
+.mobile-header-right .register-btn {
+  width: 100%;
+  max-width: 200px;
+  margin-left: 0;
+  padding: 12px 20px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 0.8rem 5%;
+  }
+  
+  .header .navbar a {
+    margin: 0 0.5rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .login-btn, .register-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.8rem 4%;
+  }
+  
+  .header .navbar, .header-right {
+    display: none;
+  }
+  #menu-btn {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+  .blur-overlay {
+    display: none;
+  }
+}

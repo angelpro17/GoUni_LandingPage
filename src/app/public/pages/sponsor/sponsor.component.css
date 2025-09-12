@@ -1,0 +1,87 @@
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  background-color: var(--background-color);
+  padding: 2rem 0;
+}
+h2 {
+  font-size: 36px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+}
+h2 span {
+  font-weight: bold;
+  font-size: 70px;
+}
+.sponsors {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas fijas */
+  gap: 10rem;
+  max-width: 1200px; /* Puedes ajustar este valor según tu diseño */
+}
+
+.sponsors img {
+  width: 100%;
+  height: auto;
+  max-width: 200px; /* O ajusta este valor según sea necesario */
+}
+
+/* Media Queries para Sponsors Responsive */
+@media (max-width: 768px) {
+  .sponsor {
+    margin-left: 1rem;
+    padding: 3rem 1rem;
+  }
+  
+  h2 {
+    font-size: clamp(28px, 6vw, 32px);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 span {
+    font-size: clamp(48px, 10vw, 56px);
+  }
+  
+  .sponsors {
+    margin-left: 0;
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-items: center;
+  }
+  
+  .sponsors img {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sponsor {
+    margin-left: 0.5rem;
+    padding: 2rem 0.5rem;
+  }
+  
+  h2 {
+    font-size: clamp(24px, 7vw, 28px);
+    margin-bottom: 1rem;
+  }
+  
+  h2 span {
+    font-size: clamp(40px, 12vw, 48px);
+  }
+  
+  .sponsors {
+    margin-top: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .sponsors img {
+    max-width: 120px;
+  }
+}

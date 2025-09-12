@@ -1,0 +1,247 @@
+/*Contact*/
+.contacto {
+  padding: 5rem 9%;
+  background-color: var(--bg);
+  text-align: left;
+  height:1000px;
+  top: 1084px;
+  width: auto;
+}
+
+.contacto html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+h2 {
+  font-size: 36px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+}
+h2 span {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+
+.contacto body {
+  background-color: #000;
+}
+
+.contacto button {
+  overflow: visible;
+}
+
+.contacto button, select {
+  text-transform: none;
+}
+
+.contacto button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+.contacto input {
+  line-height: normal;
+}
+
+.contacto textarea {
+  overflow: auto;
+}
+
+.contacto #container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  background-color: var(--bg);
+  margin: 60px auto;
+  position: relative;
+}
+
+.contacto form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+.contacto h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacto .underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.contacto .icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.contacto .icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.contacto .email {
+  float: right;
+  width: 45%;
+}
+
+.contacto input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.contacto input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.contacto .message {
+  float: none;
+}
+
+.contacto .name {
+  float: left;
+  width: 45%;
+
+
+}
+
+.contacto select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.contacto select::-ms-expand {
+  display: none;
+}
+
+.contacto .subject {
+  width: 100%;
+}
+
+.contacto .telephone {
+  width: 100%;
+}
+
+.contacto textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+.contacto ::-webkit-input-placeholder {
+  color: #474544;
+}
+
+.contacto :-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+.contacto ::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+.contacto :-ms-input-placeholder {
+  color: #474544;
+}
+
+.contacto #form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contacto #form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contacto #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contacto  h1 {
+    font-size: 26px;
+  }
+
+  .contacto .underline {
+    width: 68px;
+  }
+
+  .contacto  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contacto  h1 {
+    font-size: 18px;
+  }
+
+  .contacto .icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .contacto .underline {
+    width: 53px;
+  }
+
+  .contacto input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}

@@ -1,0 +1,42 @@
+<header class="header">
+  <div class="logoUF">
+    <a routerLink="/">
+      <img src="/logoGoUni_optimized.png" alt="logoUF">
+    </a>
+  </div>
+
+  <nav class="navbar">
+    <a (click)="scrollToSection('inicio')">{{ 'toolbar.home' | translate }}</a>
+    <a (click)="scrollToSection('funcionalidad')">{{ 'toolbar.functionality' | translate }}</a>
+    <a (click)="scrollToSection('beneficios')">{{ 'toolbar.benefits' | translate }}</a>
+    <a (click)="scrollToSection('planes')">{{ 'toolbar.plans' | translate }}</a>
+    <a (click)="scrollToSection('contacto')">{{ 'toolbar.contact' | translate }}</a>
+  </nav>
+  <div class="header-right">
+    <div class="language-selector">
+      <app-language-switcher></app-language-switcher>
+    </div>
+    <button class="login-btn" (click)="openLogin()">Log in</button>
+    <button class="register-btn" (click)="openRegister()">Register</button>
+  </div>
+  <div id="menu-btn" class="fas fa-bars" (click)="toggleMenu()"></div>
+  
+  <div class="blur-overlay" [class.active]="isMenuOpen" (click)="toggleMenu()"></div>
+  
+  <div class="mobile-menu" [class.active]="isMenuOpen">
+    <nav class="mobile-navbar">
+      <a (click)="scrollToSection('inicio'); toggleMenu()">{{ 'toolbar.home' | translate }}</a>
+      <a (click)="scrollToSection('funcionalidad'); toggleMenu()">{{ 'toolbar.functionality' | translate }}</a>
+      <a (click)="scrollToSection('beneficios'); toggleMenu()">{{ 'toolbar.benefits' | translate }}</a>
+      <a (click)="scrollToSection('planes'); toggleMenu()">{{ 'toolbar.plans' | translate }}</a>
+      <a (click)="scrollToSection('contacto'); toggleMenu()">{{ 'toolbar.contact' | translate }}</a>
+    </nav>
+    <div class="mobile-header-right">
+      <div class="language-selector">
+        <app-language-switcher></app-language-switcher>
+      </div>
+      <button class="login-btn" (click)="openLogin(); toggleMenu()">Log in</button>
+      <button class="register-btn" (click)="openRegister(); toggleMenu()">Register</button>
+    </div>
+  </div>
+</header>

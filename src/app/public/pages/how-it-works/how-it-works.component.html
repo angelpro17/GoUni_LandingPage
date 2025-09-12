@@ -1,0 +1,12 @@
+<section class="how-it-works" id="funcionalidad">
+  <h2>{{ 'howItWorks.title' | translate }}<br> <span>{{ 'howItWorks.subtitle' | translate }}</span></h2>
+  <div class="steps-container">
+    <mat-card class="step" *ngFor="let step of steps">
+      <img mat-card-image [src]="step.image" [alt]="'howItWorks.' + step.clave + '.title' | translate">
+      <mat-card-title><h3>{{ 'howItWorks.' + step.clave + '.title' | translate }}</h3></mat-card-title>
+      <mat-card-content>
+        <p>{{ 'howItWorks.' + step.clave + '.description' | translate }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>

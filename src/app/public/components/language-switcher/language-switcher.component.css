@@ -1,0 +1,39 @@
+.mat-button-toggle-group {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 36px;
+}
+
+.mat-button-toggle {
+  border: none !important;
+  background-color: transparent !important;
+  color: #cccccc !important;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+  min-width: 32px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-button-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+.mat-button-toggle.mat-button-toggle-checked {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.mat-button-toggle-label-content {
+  line-height: 1;
+}

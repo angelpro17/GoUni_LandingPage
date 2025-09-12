@@ -1,0 +1,150 @@
+{
+  "toolbar": {
+      "home": "Home",
+      "functionality": "Functionality",
+      "benefits": "Benefits",
+      "plans": "Plans",
+      "team": "Team",
+      "contact": "Contact"
+  },
+  "footer": {
+    "howItWorks": "How It Works",
+    "ourPlans": "Our Plans",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "description": "We are GoUni, your ally in university mobility. Share rides, connect with friends, and help reduce traffic in your city. Join today and be part of the change!",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "rightsReserved": "All rights reserved."
+  },
+  "benefits": {
+    "title": "Learn About",
+    "subtitle": "Our Benefits of GoUni",
+    "benefit1": {
+      "title": "Save Money",
+      "description": "Share transportation costs with your classmates and reduce your daily expenses."
+    },
+    "benefit2": {
+      "title": "Make New Friends",
+      "description": "Meet other students and expand your university social circle."
+    },
+    "benefit3": {
+      "title": "Care for the Environment",
+      "description": "Reduce your carbon footprint by sharing rides with other students."
+    },
+    "benefit4": {
+      "title": "Travel Safely",
+      "description": "Enjoy a user verification system for greater peace of mind."
+    },
+    "benefit5": {
+      "title": "Flexibility",
+      "description": "Adapt your trips to your schedule and university needs."
+    },
+    "benefit6": {
+      "title": "University Community",
+      "description": "Be part of an exclusive network of students from your university."
+    }
+  },
+  "contact": {
+    "title": "How Can You",
+    "subtitle": "Contact Us",
+    "heading": "Contact Us",
+    "placeholder": {
+      "name": "Enter your full name",
+      "email": "Enter your email",
+      "telephone": "Enter your phone number",
+      "message": "Would you like to talk about"
+    },
+    "submit": "Send Message"
+  },
+  "features": {
+    "title": "Why GoUni?"
+  },
+  "header": {
+    "title": "Who Are We?",
+    "subtitle": "Transforming university transportation with innovative technology.",
+    "button": "Learn More"
+  },
+  "home": {
+    "title": "Travel comfortably, safely, and affordably with GoUni",
+    "description": "Share rides with your university classmates. Save money, make friends, and help the environment.",
+    "emailPlaceholder": "Your university email",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email",
+    "joinButton": "Join Us",
+    "loginText": "Already have an account?",
+    "loginLink": "Log in"
+  },
+  "howItWorks": {
+    "title": "How",
+    "subtitle": "It Works",
+    "step1": {
+      "title": "1. Register",
+      "description": "Create your profile with your university email and verify your account"
+    },
+    "step2": {
+      "title": "2. Search or Post Rides",
+      "description": "Find fellow students heading to your university or post your route"
+    },
+    "step3": {
+      "title": "3. Ride and Save",
+      "description": "Share costs, reduce emissions, and make new friends"
+    }
+  },
+  "pageNotFound": {
+    "title": "Page Not Found",
+    "description": "The path",
+    "button": "Home"
+  },
+  "plans": {
+    "title": "Our Plans",
+    "basic": {
+      "title": "Basic",
+      "price": "Free",
+      "feature1": "2 rides per day",
+      "feature2": "Limited access to features",
+      "feature3": "Includes ads",
+      "feature4": "Basic community support"
+    },
+    "student": {
+      "title": "Student Plan",
+      "price": "S/.10 /month",
+      "popular": "Most Popular",
+      "feature1": "Invite one guest for free",
+      "feature2": "Unlimited rides",
+      "feature3": "Double points in the first month",
+      "feature4": "Early reservations",
+      "feature5": "Access to exclusive discounts",
+      "feature6": "Priority customer support"
+    },
+    "premium": {
+      "title": "Premium Plan",
+      "price": "S/.15 /month",
+      "feature1": "Unlimited rides",
+      "feature2": "Accumulate redeemable points",
+      "feature3": "Customizable pricing",
+      "feature4": "Real-time notifications",
+      "feature5": "Invite one guest for free",
+      "feature6": "Access to exclusive driver events"
+    },
+    "subscribe": "Subscribe",
+    "cancel": "Cancel anytime"
+  },
+  "sponsors": {
+    "title": "Meet Our",
+    "subtitle": "Sponsors"
+  },
+  "team": {
+    "title": "Meet Our",
+    "subtitle": "Team"
+  },
+  "security": {
+    "title1": "Your Safety Is",
+    "title2": "Our Priority",
+    "description": "At GoUni, we take our users' safety very seriously. We implement rigorous measures to ensure safe and reliable rides.",
+    "benefit1": "Profile verification",
+    "benefit2": "Rating and review systems",
+    "benefit3": "Share trip details with trusted contacts",
+    "imageAlt": "Security at GoUni"
+  }
+}

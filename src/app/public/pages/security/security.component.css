@@ -1,0 +1,234 @@
+/* Contenedor principal */
+.security {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 5%;
+  background-color: #ffffff;
+  color: var(--text-primary);
+  flex-wrap: wrap;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Contenido de la seguridad */
+.security-content {
+  flex: 1;
+  padding-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Títulos de la seguridad */
+h2 {
+  font-size: 3.5rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  font-weight: var(--font-weight-light);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* Prioridad - Título principal más grande */
+.priority {
+  font-size: 3.5rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-color);
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Texto del párrafo */
+p {
+  font-size: 1.25rem;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+  font-weight: var(--font-weight-light);
+  max-width: 500px;
+}
+
+/* Estilo para íconos en la lista */
+.mat-list-icon {
+  color: var(--primary-color);
+  font-size: 1.5rem; /* Aumentar tamaño de íconos */
+  margin-right: 1rem;
+}
+
+/* Asegurar que los iconos de Material sean visibles y bien alineados */
+mat-icon {
+  color: var(--primary-color) !important;
+  font-size: 28px !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-right: 16px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Estilo específico para los elementos de la lista */
+.security-item {
+  padding: 1.2rem 0 !important;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex !important;
+  align-items: center !important;
+  min-height: 60px !important;
+}
+
+/* Contenido del elemento de lista en línea horizontal */
+.security-item .mat-list-item-content {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  width: 100% !important;
+}
+
+.security-item:last-child {
+  border-bottom: none;
+}
+
+/* Estilo para las líneas de la lista */
+.mat-line {
+  font-size: 1.1rem;
+  color: #333333 !important;
+  font-weight: var(--font-weight-normal);
+  opacity: 0.9;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Contenedor de la lista */
+mat-list {
+  padding: 0 !important;
+}
+
+mat-list-item {
+  height: auto !important;
+}
+
+
+
+/* Imagen en la sección de seguridad */
+.security-image {
+  flex: 1;
+  text-align: center;
+}
+
+/* Ajuste de la imagen */
+.security-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Media Queries mejoradas para Security Responsive */
+@media (max-width: 1024px) {
+  .security {
+    padding: 6rem 4%;
+    text-align: center;
+  }
+  
+  .security-content {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: clamp(2.8rem, 5vw, 3.2rem);
+  }
+  
+  .priority {
+    font-size: clamp(3rem, 5.5vw, 3.5rem);
+  }
+  
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .security {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    min-height: auto;
+  }
+
+  .security-content {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 6vw, 2.5rem);
+  }
+
+  .priority {
+    font-size: clamp(2.2rem, 7vw, 2.8rem);
+  }
+
+  p {
+    font-size: clamp(1rem, 3vw, 1.1rem);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+  }
+
+  .mat-line {
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+  }
+
+  .security-image {
+    margin-right: 0;
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+
+  .mat-list-icon {
+    font-size: clamp(1.2rem, 3vw, 1.3rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .security {
+    padding: 3rem 2%;
+  }
+  
+  h2 {
+    font-size: clamp(1.8rem, 7vw, 2rem);
+    margin-bottom: 1rem;
+  }
+
+  .priority {
+    font-size: clamp(2rem, 8vw, 2.2rem);
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: clamp(0.9rem, 4vw, 1rem);
+    max-width: 350px;
+    margin-bottom: 2rem;
+  }
+
+  .mat-line {
+    font-size: clamp(0.85rem, 3vw, 0.9rem);
+  }
+
+  .mat-list-icon {
+    font-size: clamp(1.1rem, 4vw, 1.2rem);
+  }
+  
+  .security-image img {
+    border-radius: 8px;
+  }
+}

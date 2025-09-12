@@ -1,0 +1,52 @@
+<section class="plans" id="planes">
+  <h2 class="our-plans">{{ 'plans.title' | translate }}</h2>
+  <div class="plan-cards">
+    <mat-card class="plan-card">
+      <h3>{{ 'plans.basic.title' | translate }}</h3>
+      <p class="price">{{ 'plans.basic.price' | translate }}</p>
+      <ul>
+        <li>{{ 'plans.basic.feature1' | translate }}</li>
+        <li>{{ 'plans.basic.feature2' | translate }}</li>
+        <li>{{ 'plans.basic.feature3' | translate }}</li>
+        <li>{{ 'plans.basic.feature4' | translate }}</li>
+      </ul>
+      <button mat-raised-button color="primary">{{ 'plans.subscribe' | translate }}</button>
+      <p class="cancel">{{ 'plans.cancel' | translate }}</p>
+    </mat-card>
+
+    <mat-card class="plan-card featured">
+      <h3>{{ 'plans.student.title' | translate }}</h3>
+      <p class="price">{{ 'plans.student.price' | translate }}</p>
+      <div class="popular">{{ 'plans.student.popular' | translate }}</div>
+      <ul>
+        <li>{{ 'plans.student.feature1' | translate }}</li>
+        <li>{{ 'plans.student.feature2' | translate }}</li>
+        <li>{{ 'plans.student.feature3' | translate }}</li>
+        <li>{{ 'plans.student.feature4' | translate }}</li>
+        <li>{{ 'plans.student.feature5' | translate }}</li>
+        <li>{{ 'plans.student.feature6' | translate }}</li>
+      </ul>
+      <button mat-raised-button color="primary">{{ 'plans.subscribe' | translate }}</button>
+      <p class="cancel">{{ 'plans.cancel' | translate }}</p>
+    </mat-card>
+
+    <mat-card class="plan-card">
+      <h3>{{ 'plans.premium.title' | translate }}</h3>
+      <p class="price">{{ 'plans.premium.price' | translate }}</p>
+      <ul>
+        <li>{{ 'plans.premium.feature1' | translate }}</li>
+        <li>{{ 'plans.premium.feature2' | translate }}</li>
+        <li>{{ 'plans.premium.feature3' | translate }}</li>
+        <li>{{ 'plans.premium.feature4' | translate }}</li>
+        <li>{{ 'plans.premium.feature5' | translate }}</li>
+        <li>{{ 'plans.premium.feature6' | translate }}</li>
+      </ul>
+      <button mat-raised-button color="primary">{{ 'plans.subscribe' | translate }}</button>
+      <p class="cancel">{{ 'plans.cancel' | translate }}</p>
+    </mat-card>
+  </div>
+
+  <div *ngIf="subscriptionStatus" class="subscription-status">
+    {{ subscriptionStatus }}
+  </div>
+</section>

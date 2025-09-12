@@ -1,0 +1,45 @@
+<section class="home" id="inicio">
+  <div class="content">
+    <h1>{{ 'home.title' | translate }}</h1>
+    <p>{{ 'home.description' | translate }}</p>
+    <form [formGroup]="joinForm" (ngSubmit)="onSubmit()" class="join-form">
+      <mat-form-field appearance="outline">
+        <mat-label>{{ 'home.emailPlaceholder' | translate }}</mat-label>
+        <input matInput type="email" formControlName="email" [placeholder]="'home.emailPlaceholder' | translate" required>
+        <mat-error *ngIf="joinForm.get('email')?.hasError('required')">{{ 'home.emailRequired' | translate }}</mat-error>
+        <mat-error *ngIf="joinForm.get('email')?.hasError('email')">{{ 'home.emailInvalid' | translate }}</mat-error>
+      </mat-form-field>
+      <button mat-raised-button type="submit" [disabled]="!joinForm.valid">{{ 'home.joinButton' | translate }}</button>
+    </form>
+    <p class="login-text">{{ 'home.loginText' | translate }} <a class="login-link" href="#">{{ 'home.loginLink' | translate }}</a></p>
+  </div>
+</section>
+@defer (on viewport) {
+  <app-how-it-works></app-how-it-works>
+} @placeholder {
+  <div class="loading-placeholder">Cargando...</div>
+}
+
+@defer (on viewport) {
+  <app-benefits></app-benefits>
+} @placeholder {
+  <div class="loading-placeholder">Cargando beneficios...</div>
+}
+
+@defer (on viewport) {
+  <app-security></app-security>
+} @placeholder {
+  <div class="loading-placeholder">Cargando seguridad...</div>
+}
+
+@defer (on viewport) {
+  <app-plans></app-plans>
+} @placeholder {
+  <div class="loading-placeholder">Cargando planes...</div>
+}
+
+@defer (on viewport) {
+  <app-contact></app-contact>
+} @placeholder {
+  <div class="loading-placeholder">Cargando contacto...</div>
+}

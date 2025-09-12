@@ -1,0 +1,150 @@
+{
+  "toolbar": {
+      "home": "Inicio",
+      "functionality": "Funcionalidades",
+      "benefits": "Beneficios",
+      "plans": "Planes",
+      "team": "Equipo",
+      "contact": "Contacto"
+  },
+    "footer": {
+      "howItWorks": "Cómo Funciona",
+      "ourPlans": "Nuestros Planes",
+      "aboutUs": "Sobre Nosotros",
+      "contactUs": "Contáctenos",
+      "description": "Somos GoUni, tu aliado en movilidad universitaria. Comparte viajes, conecta con amigos y ayuda a reducir el tráfico en tu ciudad. ¡Únete hoy y sé parte del cambio!",
+      "privacyPolicy": "Políticas de Privacidad",
+      "termsOfUse": "Términos de Uso",
+      "rightsReserved": "Todos los derechos reservados."
+  },
+  "benefits": {
+    "title": "Conoce",
+    "subtitle": "Nuestros Beneficios de GoUni",
+    "benefit1": {
+      "title": "Ahorra Dinero",
+      "description": "Comparte los gastos de transporte con tus compañeros y reduce tus costos diarios."
+    },
+    "benefit2": {
+      "title": "Haz Nuevos Amigos",
+      "description": "Conoce a otros estudiantes y amplía tu círculo social universitario."
+    },
+    "benefit3": {
+      "title": "Cuida el Medio Ambiente",
+      "description": "Reduce tu huella de carbono compartiendo viajes con otros estudiantes."
+    },
+    "benefit4": {
+      "title": "Viaja Seguro",
+      "description": "Disfruta de un sistema de verificación de usuarios para mayor tranquilidad."
+    },
+    "benefit5": {
+      "title": "Flexibilidad",
+      "description": "Adapta tus viajes a tu horario y necesidades universitarias."
+    },
+    "benefit6": {
+      "title": "Comunidad Universitaria",
+      "description": "Forma parte de una red exclusiva de estudiantes de tu universidad."
+    }
+  },
+  "contact": {
+    "title": "Como Puedes",
+    "subtitle": "Contactarnos",
+    "heading": "Contáctanos",
+    "placeholder": {
+      "name": "Ingrese su nombre y apellido",
+      "email": "Ingrese su correo",
+      "telephone": "Ingrese su número telefónico",
+      "message": "Te gustaría hablar de"
+    },
+    "submit": "Enviar Mensaje"
+  },
+  "features": {
+    "title": "¿Por qué GoUni?"
+  },
+  "header": {
+    "title": "¿Quiénes Somos?",
+    "subtitle": "Transformando el transporte universitario con tecnología innovadora.",
+    "button": "Descubre más"
+  },
+  "home": {
+    "title": "Viaja cómodo, seguro y económico con GoUni",
+    "description": "Comparte viajes con tus compañeros de universidad. Ahorra dinero, haz amigos y cuida el medio ambiente.",
+    "emailPlaceholder": "Tu correo universitario",
+    "emailRequired": "El correo es requerido",
+    "emailInvalid": "Ingresa un correo válido",
+    "joinButton": "Unirme",
+    "loginText": "¿Ya tienes una cuenta?",
+    "loginLink": "Inicia sesión"
+  },
+  "howItWorks": {
+    "title": "Cómo",
+    "subtitle": "Funciona",
+    "step1": {
+      "title": "1. Regístrate",
+      "description": "Crea tu perfil con tu correo universitario y verifica tu cuenta"
+    },
+    "step2": {
+      "title": "2. Busca o Publica Viajes",
+      "description": "Encuentra compañeros que vayan a tu universidad o publica tu ruta"
+    },
+    "step3": {
+      "title": "3. Viaja y Ahorra",
+      "description": "Comparte gastos, reduce emisiones y haz nuevos amigos"
+    }
+  },
+  "pageNotFound": {
+    "title": "Página No Encontrada",
+    "description": "El camino",
+    "button": "Inicio"
+  },
+  "plans": {
+    "title": "Nuestros Planes",
+    "basic": {
+      "title": "Básico",
+      "price": "Gratis",
+      "feature1": "2 viajes por día",
+      "feature2": "Acceso limitado a funciones",
+      "feature3": "Incluye anuncios",
+      "feature4": "Soporte básico comunitario"
+    },
+    "student": {
+      "title": "Plan Estudiante",
+      "price": "S/.10 /mes",
+      "popular": "Más popular",
+      "feature1": "Invita a un acompañante gratis",
+      "feature2": "Viajes ilimitados",
+      "feature3": "Puntos dobles en el primer mes",
+      "feature4": "Reservas anticipadas",
+      "feature5": "Acceso a descuentos exclusivos",
+      "feature6": "Atención al cliente preferencial"
+    },
+    "premium": {
+      "title": "Plan Premium",
+      "price": "S/.15 /mes",
+      "feature1": "Viajes ilimitados",
+      "feature2": "Acumulación de puntos canjeables",
+      "feature3": "Personalización de precios",
+      "feature4": "Notificaciones en tiempo real",
+      "feature5": "Invita a un acompañante gratis",
+      "feature6": "Acceso a eventos exclusivos para conductores"
+    },
+    "subscribe": "Suscríbete",
+    "cancel": "Cancela en cualquier momento"
+  },
+  "sponsors": {
+    "title": "Conoce a",
+    "subtitle": "Nuestros Sponsors"
+  },
+  "team": {
+    "title": "Conoce",
+    "subtitle": "Nuestro Equipo"
+  },
+  "security": {
+    "title1": "Tu seguridad es",
+    "title2": "Nuestra Prioridad",
+    "description": "En GoUni, nos tomamos muy en serio la seguridad de nuestros usuarios. Implementamos rigurosas medidas para garantizar viajes seguros y confiables.",
+    "benefit1": "Verificación de perfiles",
+    "benefit2": "Sistemas de calificaciones y reseñas",
+    "benefit3": "Compartir detalles del viaje con contactos de confianza",
+    "imageAlt": "Seguridad en GoUni"
+  }
+}

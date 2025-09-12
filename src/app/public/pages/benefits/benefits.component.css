@@ -1,0 +1,139 @@
+.benefits {
+  background-color: #ff6b35; /* Fondo naranja actualizado */
+  padding: 6rem 5%;
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.benefits-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 4rem;
+  align-items: center;
+}
+
+.benefits-text {
+  flex: 1;
+  text-align: left;
+}
+
+h2 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+h2 span {
+  font-weight: bold;
+  font-size: 64px;
+  display: block;
+  color: white;
+}
+
+/* Contenedor de rejilla con 2 columnas */
+.contenedor-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* Cuadro individual de cada beneficio */
+.cuadro {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: fit-content;
+}
+
+.cuadro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Tamaño del avatar del icono */
+.mat-mdc-card-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilo del título */
+.mat-mdc-card-title {
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.mat-mdc-card-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Contenido del cuadro */
+.mat-mdc-card-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .benefits {
+    padding: 4rem 5%;
+    min-height: auto;
+  }
+  
+  .benefits-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .benefits-text {
+    text-align: center;
+  }
+  
+  .contenedor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h2 span {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mat-mdc-card-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h2 span {
+    font-size: 32px;
+  }
+
+  .mat-mdc-card-title h3 {
+    font-size: 20px;
+  }
+
+  .mat-mdc-card-content p {
+    font-size: 16px;
+  }
+}

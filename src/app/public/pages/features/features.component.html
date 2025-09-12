@@ -1,0 +1,12 @@
+<section class="features" id="servicio">
+  <h2>{{ 'features.title' | translate }}</h2>
+  <div class="feature-grid">
+    <mat-card *ngFor="let feature of features" class="feature">
+      <img mat-card-image [src]="feature.image" alt="{{ feature.title }}">
+      <mat-card-title><h3>{{ feature.title }}</h3></mat-card-title>
+      <mat-card-content>
+        <p>{{ feature.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>

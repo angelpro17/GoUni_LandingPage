@@ -1,0 +1,13 @@
+<section class="equipo" id="nosotros">
+  <h2>{{ 'team.title' | translate }}<br><span>{{ 'team.subtitle' | translate }}</span></h2>
+  <div class="box-container">
+    <div class="box" *ngFor="let member of team">
+      <span>{{ member.id }}</span>
+      <img [src]="member.photo" alt="{{ member.name }}">
+      <div class="content">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.role }}</p>
+      </div>
+    </div>
+  </div>
+</section>
