@@ -22,11 +22,11 @@ export class ToolbarComponent {
   }
 
   openLogin() {
-    window.open('', '_self');
+    window.open('https://go-uni-front-end.vercel.app/login', '_blank');
   }
 
   openRegister() {
-    window.open('', '_self');
+    window.open('https://go-uni-front-end.vercel.app/register', '_blank');
   }
 
   scrollToSection(sectionId: string) {
